@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<HTML>
+<HEAD>
+<TITLE>
+SIMPLE LANDING PAGE</TITLE>
+<STYLE type='text/css'>
+*{padding: 0; margin:0; box-sizing:border-box;}
+header
+{
+width:100%;
+height: 100vh;
+background-image: url('https://static.vecteezy.com/system/resources/previews/001/937/601/original/online-education-application-learning-worldwide-on-computer-mobile-website-background-social-distance-concept-the-classroom-training-course-library-illustration-flat-vector.jpg');
+background-size:cover;
+}
+nav{
+width: 100%;
+height: 100px;
+color: black;
+display: flex;
+justify-content: space-around;
+align-items:center;
+}
+.logo{
+font-size:2em;
+letter-spacing: 2px;
+font-family:cursive;
+}
+.menu a{
+text-decoration:none;
+color: black;
+padding: 10px 20px;
+font-size:20px;
+position:relative;
+}
+.menu a:before{
+content: '';
+position:absolute;
+top:0;
+left:0;
+width:0%;
+height:100%;
+border-bottom: 2px solid white;
+transition: 0.4s linear;
+}
+.menu a:hover:before{
+width:90%;
+}
+.register a{
+text-decoration:none;
+color: black;
+padding: 10px 20px;
+font-size:20px;
+background-color: white;
+transition: 0.4s;
+}
+
+.register a:hover{
+background: blue;
+border:1px solid white;
+}
+.h-txt{
+max-width: 650px;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+color: black;
+}
+.h-txt span{
+letter-spacing: 5px;
+}
+.h-txt h1{
+font-size: 4em;
+}
+
+.h-txt a{
+text-decoration: none;
+background: white;
+color: black;
+padding: 10px 20px;
+letter-spacing: 5px;
+transition: 0.4s;
+}
+.h-txt a:hover{
+background: blue;
+border:1px solid white;
+}
+
+</STYLE>
+</HEAD>
+<HEADER>
+<nav>
+    <div class="logo">
+       COURSELINE
+    </div>
+    <div class="menu">
+            <a href="travel.html">HOME</a>
+            <a href="search.html">SEARCH</a>
+            <a href="offers.html">BEST OFFERS</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT US</a>
+    </div>
+    <div class="register">
+            <a href="#">REGISTER</a>
+    </div>
+</nav>
+<section class="h-txt">
+<span><b>EXPLORE</b></span>
+<h1>VARIOUS COURSES</h1>
+
+<br>
+<a href="#">Buy your courses NOW</a>
+</section>
+</HEADER>
+</HTML>
